@@ -1,30 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { 
   FaPhone, 
   FaWhatsapp, 
   FaEnvelope, 
   FaMapMarkerAlt, 
-  FaUniversity,
-  FaStar,
   FaExternalLinkAlt
 } from 'react-icons/fa'
 
 const Contact = () => {
-  const [rating, setRating] = useState(0)
-  const [feedback, setFeedback] = useState('')
-
-  const handleFeedbackSubmit = (e) => {
-    e.preventDefault()
-    if (rating === 0) {
-      alert('Please select a rating')
-      return
-    }
-    
-    // Static feedback - just show a thank you message
-    alert('Thank you for your feedback! We appreciate your input.')
-    setRating(0)
-    setFeedback('')
-  }
 
   const handleDirections = () => {
     const address = 'Shop-10, Simandhar Complex, Near Prabhat Chowk, Ghatlodiya, Ahmedabad, 380061'
@@ -43,9 +26,9 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 sm:gap-12">
           {/* Contact Information */}
-          <div className="space-y-6 sm:space-y-8">
+          <div className="space-y-6 sm:space-y-8 max-w-2xl mx-auto">
             {/* Primary Contact */}
             <div className="bg-white rounded-lg shadow-md p-4 sm:p-6">
               <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-4 sm:mb-6">Contact Information</h3>
@@ -124,61 +107,6 @@ const Contact = () => {
               </a>
             </div>
           </div>
-
-          {/* Feedback Form */}
-          <div className="bg-white rounded-lg shadow-md p-4 sm:p-6">
-            <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-4 sm:mb-6">Leave Feedback</h3>
-            
-            <form onSubmit={handleFeedbackSubmit} className="space-y-4 sm:space-y-6">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Rate our service
-                </label>
-                <div className="flex items-center space-x-1 sm:space-x-2">
-                  {[1, 2, 3, 4, 5].map((star) => (
-                    <button
-                      key={star}
-                      type="button"
-                      onClick={() => setRating(star)}
-                      className={`text-xl sm:text-2xl transition-colors ${
-                        star <= rating ? 'text-yellow-400' : 'text-gray-300'
-                      }`}
-                    >
-                      <FaStar />
-                    </button>
-                  ))}
-                </div>
-              </div>
-
-              <div>
-                <label htmlFor="feedback" className="block text-sm font-medium text-gray-700 mb-2">
-                  Your feedback (optional)
-                </label>
-                <textarea
-                  id="feedback"
-                  rows={4}
-                  value={feedback}
-                  onChange={(e) => setFeedback(e.target.value)}
-                  placeholder="Tell us about your experience with our products and services..."
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 resize-none text-sm sm:text-base"
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 sm:py-3 px-4 rounded-lg transition-colors font-medium text-sm sm:text-base"
-              >
-                Submit Feedback
-              </button>
-            </form>
-
-            <div className="mt-4 sm:mt-6 p-3 sm:p-4 bg-blue-50 border border-blue-200 rounded-lg">
-              <p className="text-xs sm:text-sm text-blue-800">
-                <strong>Note:</strong> This is a static website. For direct inquiries, please use the WhatsApp 
-                or call buttons above to contact us immediately.
-              </p>
-            </div>
-          </div>
         </div>
 
         {/* Map Section */}
@@ -187,7 +115,7 @@ const Contact = () => {
             <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-4 sm:mb-6">Our Location</h3>
             <div className="aspect-w-16 aspect-h-9 bg-gray-200 rounded-lg overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.5!2d72.6!3d23.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDA2JzAwLjAiTiA3MsKwMzYnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.8442647647765!2d72.54210098502285!3d23.069666884594447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8367f3bb9671%3A0x474bdd5c5d948e58!2sSimandhar%20Complex%2C%20C1%2F6%2C%20Ghatlodiya%2C%20Ahmedabad%2C%20Gujarat%20380061!5e0!3m2!1sen!2sin!4v1699123456789!5m2!1sen!2sin"
                 width="100%"
                 height="250"
                 style={{ border: 0 }}

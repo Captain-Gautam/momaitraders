@@ -12,41 +12,48 @@ const Products = () => {
     },
     {
       id: 2,
-      name: 'All Type Of Washroom Solutions',
-      icon: <FaHome className="w-8 h-8" />,
-      description: 'Comprehensive washroom solutions and cleaning supplies for maintaining hygiene standards.',
-      whatsappText: 'Enquiry for product: All Type Of Washroom Solutions'
-    },
-    {
-      id: 3,
-      name: 'All Type Of Printing Services',
-      icon: <FaPrint className="w-8 h-8" />,
-      description: 'Professional printing services for business needs including documents, banners, and promotional materials.',
-      whatsappText: 'Enquiry for product: All Type Of Printing Services'
-    },
-    {
-      id: 4,
-      name: 'Industrial Packing Material',
-      icon: <FaBox className="w-8 h-8" />,
-      description: 'Specialized industrial packing materials for heavy-duty and commercial packaging requirements.',
-      whatsappText: 'Enquiry for product: Industrial Packing Material'
-    },
-    {
-      id: 5,
       name: 'Housekeeping Material',
       icon: <FaHome className="w-8 h-8" />,
       description: 'Complete range of housekeeping and cleaning materials for maintaining clean environments.',
       whatsappText: 'Enquiry for product: Housekeeping Material'
     },
     {
+      id: 3,
+      name: 'All Type Of Washroom Solutions',
+      icon: <FaHome className="w-8 h-8" />,
+      description: 'Comprehensive washroom solutions and cleaning supplies for maintaining hygiene standards.',
+      whatsappText: 'Enquiry for product: All Type Of Washroom Solutions'
+    },
+    {
+      id: 4,
+      name: 'All Type Of Printing Services',
+      icon: <FaPrint className="w-8 h-8" />,
+      description: 'Professional printing services for business needs including documents, banners, and promotional materials.',
+      whatsappText: 'Enquiry for product: All Type Of Printing Services'
+    },
+    {
+      id: 5,
+      name: 'Computer Consumable',
+      icon: <FaIndustry className="w-8 h-8" />,
+      description: 'Complete range of computer accessories and consumables for all your IT and technology needs.',
+      whatsappText: 'Enquiry for product: Computer Consumable'
+    },
+    {
       id: 6,
+      name: 'Industrial Packing Material',
+      icon: <FaBox className="w-8 h-8" />,
+      description: 'Specialized industrial packing materials for heavy-duty and commercial packaging requirements.',
+      whatsappText: 'Enquiry for product: Industrial Packing Material'
+    },
+    {
+      id: 7,
       name: 'Disposable Material',
       icon: <FaBox className="w-8 h-8" />,
       description: 'High-quality disposable products for various commercial and industrial applications.',
       whatsappText: 'Enquiry for product: Disposable Material'
     },
     {
-      id: 7,
+      id: 8,
       name: 'All Types Of Dustbins',
       icon: <FaTrash className="w-8 h-8" />,
       description: 'Wide variety of dustbins and waste management solutions for different environments and needs.',

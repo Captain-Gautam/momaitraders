@@ -9,43 +9,49 @@ const Gallery = () => {
   const galleryImages = [
     {
       id: 1,
-      src: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400',
+      src: '/images/gallery/office-stationery.jpeg',
       alt: 'Office Stationery Material',
       title: 'Office Stationery Material'
     },
     {
       id: 2,
-      src: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400',
-      alt: 'Washroom Solutions',
-      title: 'All Type Of Washroom Solutions'
-    },
-    {
-      id: 3,
-      src: 'https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=400',
-      alt: 'Printing Services',
-      title: 'All Type Of Printing Services'
-    },
-    {
-      id: 4,
-      src: 'https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?w=400',
-      alt: 'Industrial Packing Material',
-      title: 'Industrial Packing Material'
-    },
-    {
-      id: 5,
-      src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400',
+      src: '/images/gallery/housekeeping.jpeg',
       alt: 'Housekeeping Material',
       title: 'Housekeeping Material'
     },
     {
+      id: 3,
+      src: '/images/gallery/washroom-solutions.jpeg',
+      alt: 'Washroom Solutions',
+      title: 'All Type Of Washroom Solutions'
+    },
+    {
+      id: 4,
+      src: '/images/gallery/printing-services.jpeg',
+      alt: 'Printing Services',
+      title: 'All Type Of Printing Services'
+    },
+    {
+      id: 5,
+      src: '/images/gallery/computer-consumable.jpeg',
+      alt: 'Computer Consumable',
+      title: 'Computer Consumable'
+    },
+    {
       id: 6,
-      src: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400',
+      src: '/images/gallery/industrial-packing.jpeg',
+      alt: 'Industrial Packing Material',
+      title: 'Industrial Packing Material'
+    },
+    {
+      id: 7,
+      src: '/images/gallery/disposable-material.jpeg',
       alt: 'Disposable Material',
       title: 'Disposable Material'
     },
     {
-      id: 7,
-      src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400',
+      id: 8,
+      src: '/images/gallery/dustbins.jpeg',
       alt: 'All Types Of Dustbins',
       title: 'All Types Of Dustbins'
     }
@@ -111,12 +117,12 @@ const Gallery = () => {
           ))}
         </div>
 
-        {/* Placeholder Notice */}
+        {/* Additional Info */}
         <div className="mt-8 sm:mt-12 text-center">
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 sm:p-6 mx-4 sm:mx-0">
-            <p className="text-sm sm:text-base text-yellow-800">
-              <strong>Note:</strong> These are sample images representing our product categories. 
-              In the actual website, these would be replaced with real product photos from Momai Traders.
+          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 sm:p-6 mx-4 sm:mx-0">
+            <p className="text-sm sm:text-base text-blue-800">
+              <strong>Our Product Gallery:</strong> Browse through our comprehensive range of products and services. 
+              For detailed specifications and bulk pricing, please contact us directly.
             </p>
           </div>
           

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaCheckCircle, FaCalendarAlt, FaIndustry, FaUsers, FaAward } from 'react-icons/fa'
+import { FaCheckCircle, FaIndustry, FaUsers, FaAward } from 'react-icons/fa'
 
 const About = () => {
   const strengths = [
@@ -35,14 +35,6 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
           {/* Company Info */}
           <div className="order-2 lg:order-1">
-            <div className="flex items-center mb-4 sm:mb-6">
-              <FaCalendarAlt className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600 mr-3" />
-              <div>
-                <h3 className="text-lg sm:text-xl font-semibold text-gray-900">Established</h3>
-                <p className="text-sm sm:text-base text-gray-600">22/02/2021</p>
-              </div>
-            </div>
-
             <div className="flex items-start mb-4 sm:mb-6">
               <FaIndustry className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600 mr-3 mt-1" />
               <div>

@@ -94,15 +94,6 @@ const About = () => {
                 </div>
               ))}
             </div>
-
-            <div className="mt-6 sm:mt-8 p-4 sm:p-6 bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg text-white">
-              <h4 className="text-base sm:text-lg font-semibold mb-2">GST Registered Business</h4>
-              <p className="text-sm sm:text-base text-blue-100 mb-2 sm:mb-3">GST No: 24BRYPP7182G1Z1</p>
-              <p className="text-xs sm:text-sm text-blue-100 leading-relaxed">
-                We are a fully registered and compliant business, ensuring all transactions 
-                are legally documented and tax-compliant.
-              </p>
-            </div>
           </div>
         </div>
       </div>

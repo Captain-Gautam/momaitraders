@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaWhatsapp, FaBox, FaTape, FaIndustry, FaPrint, FaHome, FaTrash, FaClipboardList } from 'react-icons/fa'
+import { FaWhatsapp, FaBox, FaTape, FaIndustry, FaPrint, FaHome, FaTrash, FaClipboardList, FaEnvelope } from 'react-icons/fa'
 
 const Products = () => {
   const products = [
@@ -61,14 +61,22 @@ const Products = () => {
     window.open(whatsappUrl, '_blank')
   }
 
+  const handleEmailEnquiry = (productText) => {
+    const email = 'momaitraders73@gmail.com'
+    const subject = encodeURIComponent(`Product Enquiry - ${productText.replace('Enquiry for product: ', '')}`)
+    const body = encodeURIComponent(`Dear Momai Traders,\n\nI am interested in learning more about ${productText.replace('Enquiry for product: ', '')}.\n\nPlease provide me with more details including:\n- Product specifications\n- Pricing information\n- Availability\n- Minimum order quantity\n\nThank you for your time.\n\nBest regards`)
+    const mailtoUrl = `mailto:${email}?subject=${subject}&body=${body}`
+    window.open(mailtoUrl, '_blank')
+  }
+
   return (
     <section id="products" className="py-8 sm:py-12 lg:py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">Our Products & Services</h2>
           <p className="text-sm sm:text-base lg:text-lg text-gray-600 max-w-3xl mx-auto px-2 sm:px-0">
-            Comprehensive packaging solutions for all your industrial and commercial needs. 
-            Click on any product to send us a WhatsApp enquiry.
+            Comprehensive solutions for all your cleaning and stationery needs. 
+            Click on any product to send us a WhatsApp message or email enquiry.
           </p>
         </div>
 
@@ -91,13 +99,23 @@ const Products = () => {
                   {product.description}
                 </p>
                 
-                <button
-                  onClick={() => handleWhatsAppEnquiry(product.whatsappText)}
-                  className="w-full flex items-center justify-center space-x-2 bg-green-600 hover:bg-green-700 text-white px-3 sm:px-4 py-2 sm:py-3 rounded-lg transition-colors duration-200 font-medium text-xs sm:text-sm lg:text-base"
-                >
-                  <FaWhatsapp className="w-3 h-3 sm:w-4 sm:h-4 lg:w-5 lg:h-5" />
-                  <span>ENQUIRY NOW</span>
-                </button>
+                <div className="space-y-2">
+                  <button
+                    onClick={() => handleWhatsAppEnquiry(product.whatsappText)}
+                    className="w-full flex items-center justify-center space-x-2 bg-green-600 hover:bg-green-700 text-white px-3 sm:px-4 py-2 sm:py-3 rounded-lg transition-colors duration-200 font-medium text-xs sm:text-sm lg:text-base"
+                  >
+                    <FaWhatsapp className="w-3 h-3 sm:w-4 sm:h-4 lg:w-5 lg:h-5" />
+                    <span>WHATSAPP ENQUIRY</span>
+                  </button>
+                  
+                  <button
+                    onClick={() => handleEmailEnquiry(product.whatsappText)}
+                    className="w-full flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-3 sm:px-4 py-2 sm:py-3 rounded-lg transition-colors duration-200 font-medium text-xs sm:text-sm lg:text-base"
+                  >
+                    <FaEnvelope className="w-3 h-3 sm:w-4 sm:h-4 lg:w-5 lg:h-5" />
+                    <span>EMAIL ENQUIRY</span>
+                  </button>
+                </div>
               </div>
             </div>
           ))}
@@ -108,15 +126,26 @@ const Products = () => {
           <div className="bg-blue-600 rounded-lg p-4 sm:p-6 lg:p-8 text-white mx-2 sm:mx-0">
             <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4">Need a Custom Solution?</h3>
             <p className="text-blue-100 mb-4 sm:mb-6 max-w-2xl mx-auto text-xs sm:text-sm lg:text-base px-2 sm:px-0">
-              Can't find exactly what you're looking for? We offer custom packaging solutions 
+              Can't find exactly what you're looking for? We offer custom solutions 
               tailored to your specific requirements. Contact us to discuss your needs.
             </p>
-            <button
-              onClick={() => handleWhatsAppEnquiry('Hi, I need a custom packaging solution. Please help me.')}
-              className="bg-white text-blue-600 hover:bg-gray-100 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-medium transition-colors duration-200 text-xs sm:text-sm lg:text-base"
-            >
-              Get Custom Quote
-            </button>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
+              <button
+                onClick={() => handleWhatsAppEnquiry('Hi, I need a custom solution for my business. Please help me.')}
+                className="flex items-center justify-center space-x-2 bg-green-600 hover:bg-green-700 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-medium transition-colors duration-200 text-xs sm:text-sm lg:text-base"
+              >
+                <FaWhatsapp className="w-4 h-4 sm:w-5 sm:h-5" />
+                <span>WhatsApp Quote</span>
+              </button>
+              
+              <button
+                onClick={() => handleEmailEnquiry('Enquiry for product: Custom Solution')}
+                className="flex items-center justify-center space-x-2 bg-white text-blue-600 hover:bg-gray-100 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-medium transition-colors duration-200 text-xs sm:text-sm lg:text-base"
+              >
+                <FaEnvelope className="w-4 h-4 sm:w-5 sm:h-5" />
+                <span>Email Quote</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>

@@ -4,7 +4,6 @@ import {
   FaWhatsapp, 
   FaEnvelope, 
   FaMapMarkerAlt, 
-  FaCreditCard, 
   FaUniversity,
   FaStar,
   FaExternalLinkAlt
@@ -99,33 +98,6 @@ const Contact = () => {
                       <FaExternalLinkAlt className="w-3 h-3 sm:w-4 sm:h-4" />
                       <span>Get Directions</span>
                     </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Payment Information */}
-            <div className="bg-white rounded-lg shadow-md p-4 sm:p-6">
-              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-4 sm:mb-6 flex items-center">
-                <FaCreditCard className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 mr-2 sm:mr-3" />
-                Payment Information
-              </h3>
-              
-              <div className="space-y-3 sm:space-y-4">
-                <div>
-                  <h4 className="font-medium text-gray-900 mb-2 text-sm sm:text-base">Bank Account Details</h4>
-                  <div className="bg-gray-50 rounded-lg p-3 sm:p-4 space-y-1 sm:space-y-2">
-                    <p className="text-sm sm:text-base"><span className="font-medium">Account Name:</span> MOMAI TRADERS</p>
-                    <p className="text-sm sm:text-base"><span className="font-medium">Account Number:</span> 04620100935</p>
-                    <p className="text-sm sm:text-base"><span className="font-medium">IFSC Code:</span> KCCB0GHA046</p>
-                    <p className="text-sm sm:text-base"><span className="font-medium">Bank:</span> THE KALUPUR COMMERCIAL CO-OPERATIVE BANK LIMITED</p>
-                  </div>
-                </div>
-
-                <div>
-                  <h4 className="font-medium text-gray-900 mb-2 text-sm sm:text-base">GST Information</h4>
-                  <div className="bg-gray-50 rounded-lg p-3 sm:p-4">
-                    <p className="text-sm sm:text-base"><span className="font-medium">GST Number:</span> 24BRYPP7182G1Z1</p>
                   </div>
                 </div>
               </div>

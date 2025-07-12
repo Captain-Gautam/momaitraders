@@ -84,7 +84,7 @@ END:VCARD`
 
         <div className="grid grid-cols-1 gap-2 sm:gap-3 mb-4 sm:mb-6 lg:mb-8 px-2 sm:px-4 lg:px-0">
           <a
-            href="mailto:momaitraders@gmail.com"
+            href="mailto:momaitraders73@gmail.com"
             className="flex items-center justify-center space-x-2 bg-gradient-to-r from-purple-50/60 to-pink-50/70 rounded-xl shadow-md border border-purple-100/40 p-3 sm:p-4 hover:shadow-lg hover:from-purple-100/70 hover:to-pink-100/80 transition-all duration-300 transform hover:scale-105 backdrop-blur-sm"
           >
             <FaEnvelope className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0 text-purple-600" />

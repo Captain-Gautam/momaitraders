@@ -1,77 +1,56 @@
 import React from 'react'
-import { FaWhatsapp, FaBox, FaTape, FaIndustry } from 'react-icons/fa'
+import { FaWhatsapp, FaBox, FaTape, FaIndustry, FaPrint, FaHome, FaTrash, FaClipboardList } from 'react-icons/fa'
 
 const Products = () => {
   const products = [
     {
       id: 1,
-      name: 'All Kinds Of Industrial Tapes',
-      icon: <FaTape className="w-8 h-8" />,
-      description: 'High-quality industrial tapes for various applications including packaging, sealing, and bundling.',
-      whatsappText: 'Enquiry for product: All Kinds Of Industrial Tapes'
+      name: 'Office Stationery Material',
+      icon: <FaClipboardList className="w-8 h-8" />,
+      description: 'Complete range of office stationery items for all your business and administrative needs.',
+      whatsappText: 'Enquiry for product: Office Stationery Material'
     },
     {
       id: 2,
-      name: 'H.D.P.E Bags & Tarpauline',
-      icon: <FaBox className="w-8 h-8" />,
-      description: 'Durable HDPE bags and tarpauline sheets for heavy-duty packaging and protection needs.',
-      whatsappText: 'Enquiry for product: H.D.P.E Bags & Tarpauline'
+      name: 'All Type Of Washroom Solutions',
+      icon: <FaHome className="w-8 h-8" />,
+      description: 'Comprehensive washroom solutions and cleaning supplies for maintaining hygiene standards.',
+      whatsappText: 'Enquiry for product: All Type Of Washroom Solutions'
     },
     {
       id: 3,
-      name: 'L.D.P.E. Liners',
-      icon: <FaIndustry className="w-8 h-8" />,
-      description: 'Low-density polyethylene liners perfect for container lining and moisture protection.',
-      whatsappText: 'Enquiry for product: L.D.P.E.Liners'
+      name: 'All Type Of Printing Services',
+      icon: <FaPrint className="w-8 h-8" />,
+      description: 'Professional printing services for business needs including documents, banners, and promotional materials.',
+      whatsappText: 'Enquiry for product: All Type Of Printing Services'
     },
     {
       id: 4,
-      name: 'Laminated Pouches & Rolls',
+      name: 'Industrial Packing Material',
       icon: <FaBox className="w-8 h-8" />,
-      description: 'Premium laminated pouches and rolls for food packaging and other sensitive products.',
-      whatsappText: 'Enquiry for product: Laminated Pouches & Rolls'
+      description: 'Specialized industrial packing materials for heavy-duty and commercial packaging requirements.',
+      whatsappText: 'Enquiry for product: Industrial Packing Material'
     },
     {
       id: 5,
-      name: 'Paper Bags',
-      icon: <FaBox className="w-8 h-8" />,
-      description: 'Eco-friendly paper bags for retail and commercial use, available in various sizes.',
-      whatsappText: 'Enquiry for product: Paper Bag'
+      name: 'Housekeeping Material',
+      icon: <FaHome className="w-8 h-8" />,
+      description: 'Complete range of housekeeping and cleaning materials for maintaining clean environments.',
+      whatsappText: 'Enquiry for product: Housekeeping Material'
     },
     {
       id: 6,
-      name: 'P.P. Box Strapping',
-      icon: <FaTape className="w-8 h-8" />,
-      description: 'Strong and reliable polypropylene strapping for secure packaging and bundling.',
-      whatsappText: 'Enquiry for product: P.P.Box- Strapping'
+      name: 'Disposable Material',
+      icon: <FaBox className="w-8 h-8" />,
+      description: 'High-quality disposable products for various commercial and industrial applications.',
+      whatsappText: 'Enquiry for product: Disposable Material'
     },
     {
       id: 7,
-      name: 'Packaging Materials (Plain & Printed)',
-      icon: <FaIndustry className="w-8 h-8" />,
-      description: 'Comprehensive range of plain and custom printed packaging materials for branding.',
-      whatsappText: 'Enquiry for product: Packaging materials ( Plain & Printed )'
-    },
-    {
-      id: 8,
-      name: 'Pet Box Strapping & Pneumatic Machine',
-      icon: <FaTape className="w-8 h-8" />,
-      description: 'PET strapping solutions with pneumatic machines for automated packaging operations.',
-      whatsappText: 'Enquiry for product: Pet Box- Strapping & Pneumatic Machine'
-    },
-    {
-      id: 9,
-      name: 'LD Shrink Film & Stretch Film',
-      icon: <FaIndustry className="w-8 h-8" />,
-      description: 'High-quality shrink and stretch films for product wrapping and pallet protection.',
-      whatsappText: 'Enquiry for product: LDShrink Film & Stretch Film'
-    },
-    {
-      id: 10,
-      name: 'Cord Strap & Buckle',
-      icon: <FaTape className="w-8 h-8" />,
-      description: 'Heavy-duty cord strapping with buckles for securing large and heavy shipments.',
-      whatsappText: 'Enquiry for product: Cord Strap & Buckle'
+      name: 'All Types Of Dustbins',
+      icon: <FaTrash className="w-8 h-8" />,
+      description: 'Wide variety of dustbins and waste management solutions for different environments and needs.',
+      whatsappText: 'Enquiry for product: All Types Of Dustbins'
     }
   ]
 

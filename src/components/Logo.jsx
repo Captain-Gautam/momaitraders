@@ -1,4 +1,4 @@
-// Logo component for Momay Traders
+// Logo component for Momai Traders
 import React from 'react'
 import logoSvg from '../assets/logo.svg'
 
@@ -8,11 +8,11 @@ const Logo = ({ className = "w-8 h-8", showText = false }) => {
       {/* Actual logo from SVG file */}
       <img 
         src={logoSvg}
-        alt="Momay Traders Logo"
+        alt="Momai Traders Logo"
         className={className}
       />
       {showText && (
-        <span className="font-bold text-current">Momay Traders</span>
+        <span className="font-bold text-current">Momai Traders</span>
       )}
     </div>
   )

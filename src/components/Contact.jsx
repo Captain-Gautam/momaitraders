@@ -28,8 +28,9 @@ const Contact = () => {
   }
 
   const handleDirections = () => {
-    const address = '0 Block/202, Shantipujya Homes, Nr. Silver Star Cross Road, Chandlodiya, Ahmedabad-382481'
-    const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(address)}`
+    const address = 'Shop-10, Simandhar Complex, Near Prabhat Chowk, Ghatlodiya, Ahmedabad, 380061'
+    // const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(address)}`
+    const mapsUrl = `https://www.google.com/maps/search/simandhar complex`
     window.open(mapsUrl, '_blank')
   }
 
@@ -52,7 +53,7 @@ const Contact = () => {
               
               <div className="space-y-3 sm:space-y-4">
                 <div className="flex items-center space-x-3 sm:space-x-4">
-                  <FaPhone className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 flex-shrink-0" />
+                  <FaPhone className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 flex-shrink-0 transform scale-x-[-1]" />
                   <div>
                     <p className="font-medium text-gray-900 text-sm sm:text-base">Primary Phone</p>
                     <a href="tel:+919974902733" className="text-blue-600 hover:text-blue-700 text-sm sm:text-base">
@@ -62,7 +63,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-center space-x-3 sm:space-x-4">
-                  <FaPhone className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 flex-shrink-0" />
+                  <FaPhone className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 flex-shrink-0 transform scale-x-[-1]" />
                   <div>
                     <p className="font-medium text-gray-900 text-sm sm:text-base">Secondary Phone</p>
                     <a href="tel:+918788477773" className="text-blue-600 hover:text-blue-700 text-sm sm:text-base">
@@ -75,8 +76,8 @@ const Contact = () => {
                   <FaEnvelope className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 flex-shrink-0" />
                   <div>
                     <p className="font-medium text-gray-900 text-sm sm:text-base">Email</p>
-                    <a href="mailto:momaytraders@gmail.com" className="text-blue-600 hover:text-blue-700 text-sm sm:text-base break-words">
-                      momaytraders@gmail.com
+                    <a href="mailto:momaitraders73@gmail.com" className="text-blue-600 hover:text-blue-700 text-sm sm:text-base break-words">
+                      momaitraders73@gmail.com
                     </a>
                   </div>
                 </div>
@@ -86,9 +87,9 @@ const Contact = () => {
                   <div>
                     <p className="font-medium text-gray-900 text-sm sm:text-base">Address</p>
                     <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
-                      0 Block/202, Shantipujya Homes,<br />
-                      Nr. Silver Star Cross Road,<br />
-                      Chandlodiya, Ahmedabad-382481<br />
+                      Shop-10, Simandhar Complex,<br />
+                      Near Prabhat Chowk,<br />
+                      Ghatlodiya, Ahmedabad, 380061<br />
                       Gujarat, India
                     </p>
                     <button
@@ -114,9 +115,9 @@ const Contact = () => {
                 <div>
                   <h4 className="font-medium text-gray-900 mb-2 text-sm sm:text-base">Bank Account Details</h4>
                   <div className="bg-gray-50 rounded-lg p-3 sm:p-4 space-y-1 sm:space-y-2">
-                    <p className="text-sm sm:text-base"><span className="font-medium">Account Name:</span> MOMAY TRADERS</p>
-                    <p className="text-sm sm:text-base"><span className="font-medium">Account Number:</span> 01020109518</p>
-                    <p className="text-sm sm:text-base"><span className="font-medium">IFSC Code:</span> KCCB0ASR010</p>
+                    <p className="text-sm sm:text-base"><span className="font-medium">Account Name:</span> MOMAI TRADERS</p>
+                    <p className="text-sm sm:text-base"><span className="font-medium">Account Number:</span> 04620100935</p>
+                    <p className="text-sm sm:text-base"><span className="font-medium">IFSC Code:</span> KCCB0GHA046</p>
                     <p className="text-sm sm:text-base"><span className="font-medium">Bank:</span> THE KALUPUR COMMERCIAL CO-OPERATIVE BANK LIMITED</p>
                   </div>
                 </div>
@@ -124,7 +125,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-medium text-gray-900 mb-2 text-sm sm:text-base">GST Information</h4>
                   <div className="bg-gray-50 rounded-lg p-3 sm:p-4">
-                    <p className="text-sm sm:text-base"><span className="font-medium">GST Number:</span> 24AHBPA4958P1Z4</p>
+                    <p className="text-sm sm:text-base"><span className="font-medium">GST Number:</span> 24BRYPP7182G1Z1</p>
                   </div>
                 </div>
               </div>
@@ -133,7 +134,7 @@ const Contact = () => {
             {/* Quick Actions */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
               <a
-                href="https://api.whatsapp.com/send?phone=919974902733&text=Hi, Momay Traders"
+                href="https://api.whatsapp.com/send?phone=919974902733&text=Hi, Momai Traders"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center space-x-2 sm:space-x-3 bg-green-600 hover:bg-green-700 text-white px-4 sm:px-6 py-3 sm:py-4 rounded-lg transition-colors"
@@ -146,7 +147,7 @@ const Contact = () => {
                 href="tel:+919974902733"
                 className="flex items-center justify-center space-x-2 sm:space-x-3 bg-blue-600 hover:bg-blue-700 text-white px-4 sm:px-6 py-3 sm:py-4 rounded-lg transition-colors"
               >
-                <FaPhone className="w-4 h-4 sm:w-5 sm:h-5" />
+                <FaPhone className="w-4 h-4 sm:w-5 sm:h-5 transform scale-x-[-1]" />
                 <span className="font-medium text-sm sm:text-base">Call Now</span>
               </a>
             </div>
@@ -221,7 +222,7 @@ const Contact = () => {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Momay Traders Location"
+                title="Momai Traders Location"
                 className="sm:h-[300px]"
               ></iframe>
             </div>

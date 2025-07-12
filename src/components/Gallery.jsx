@@ -5,55 +5,49 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null)
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
-  // Placeholder images - in real implementation, these would be actual product images
+  // Product images matching our services
   const galleryImages = [
     {
       id: 1,
-      src: 'https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?w=400',
-      alt: 'Industrial Packaging Tapes',
-      title: 'Industrial Packaging Tapes'
+      src: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400',
+      alt: 'Office Stationery Material',
+      title: 'Office Stationery Material'
     },
     {
       id: 2,
-      src: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400',
-      alt: 'HDPE Bags and Packaging',
-      title: 'HDPE Bags and Packaging'
+      src: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400',
+      alt: 'Washroom Solutions',
+      title: 'All Type Of Washroom Solutions'
     },
     {
       id: 3,
-      src: 'https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=400',
-      alt: 'Stretch Films and Wrapping',
-      title: 'Stretch Films and Wrapping'
+      src: 'https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=400',
+      alt: 'Printing Services',
+      title: 'All Type Of Printing Services'
     },
     {
       id: 4,
-      src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400',
-      alt: 'Laminated Pouches',
-      title: 'Laminated Pouches'
+      src: 'https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?w=400',
+      alt: 'Industrial Packing Material',
+      title: 'Industrial Packing Material'
     },
     {
       id: 5,
-      src: 'https://images.unsplash.com/photo-1516762689617-e1cfddf819d3?w=400',
-      alt: 'Paper Bags',
-      title: 'Paper Bags'
+      src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400',
+      alt: 'Housekeeping Material',
+      title: 'Housekeeping Material'
     },
     {
       id: 6,
-      src: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400',
-      alt: 'Strapping Materials',
-      title: 'Strapping Materials'
+      src: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400',
+      alt: 'Disposable Material',
+      title: 'Disposable Material'
     },
     {
       id: 7,
-      src: 'https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?w=400',
-      alt: 'Custom Packaging Solutions',
-      title: 'Custom Packaging Solutions'
-    },
-    {
-      id: 8,
-      src: 'https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=400',
-      alt: 'Industrial Supplies',
-      title: 'Industrial Supplies'
+      src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400',
+      alt: 'All Types Of Dustbins',
+      title: 'All Types Of Dustbins'
     }
   ]
 
@@ -121,9 +115,24 @@ const Gallery = () => {
         <div className="mt-8 sm:mt-12 text-center">
           <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 sm:p-6 mx-4 sm:mx-0">
             <p className="text-sm sm:text-base text-yellow-800">
-              <strong>Note:</strong> These are placeholder images for demonstration. 
-              In the actual website, these would be replaced with real product photos from Momay Traders.
+              <strong>Note:</strong> These are sample images representing our product categories. 
+              In the actual website, these would be replaced with real product photos from Momai Traders.
             </p>
+          </div>
+          
+          {/* PDF Download Link */}
+          <div className="mt-4 sm:mt-6">
+            <a
+              href="/product-catalog.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-2 sm:space-x-3 bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 font-semibold text-sm sm:text-base"
+            >
+              <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fillRule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clipRule="evenodd" />
+              </svg>
+              <span>To View More Products</span>
+            </a>
           </div>
         </div>
       </div>

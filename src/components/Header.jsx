@@ -25,7 +25,7 @@ const Header = () => {
           <div className="flex items-center min-w-0">
             <Logo className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600 mr-2 sm:mr-3 flex-shrink-0" />
             <div className="text-lg sm:text-xl lg:text-2xl font-bold text-blue-600 truncate">
-              Momay Traders
+              Momai Traders
             </div>
           </div>
 
@@ -69,11 +69,11 @@ const Header = () => {
               href="tel:+919974902733"
               className="flex items-center space-x-1 sm:space-x-2 bg-blue-600 text-white px-2 sm:px-3 lg:px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm"
             >
-              <FaPhone className="w-3 h-3 sm:w-4 sm:h-4" />
+              <FaPhone className="w-3 h-3 sm:w-4 sm:h-4 transform scale-x-[-1]" />
               <span className="hidden xl:inline">Call</span>
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=919974902733&text=Hi, Momay Traders"
+              href="https://api.whatsapp.com/send?phone=919974902733&text=Hi, Momai Traders"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-1 sm:space-x-2 bg-green-600 text-white px-2 sm:px-3 lg:px-4 py-2 rounded-lg hover:bg-green-700 transition-colors text-sm"
@@ -133,11 +133,11 @@ const Header = () => {
                   href="tel:+919974902733"
                   className="flex items-center justify-center space-x-2 bg-blue-600 text-white px-4 py-3 rounded-lg hover:bg-blue-700 transition-colors text-sm"
                 >
-                  <FaPhone className="w-4 h-4" />
+                  <FaPhone className="w-4 h-4 transform scale-x-[-1]" />
                   <span>Call Now</span>
                 </a>
                 <a
-                  href="https://api.whatsapp.com/send?phone=919974902733&text=Hi, Momay Traders"
+                  href="https://api.whatsapp.com/send?phone=919974902733&text=Hi, Momai Traders"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center space-x-2 bg-green-600 text-white px-4 py-3 rounded-lg hover:bg-green-700 transition-colors text-sm"

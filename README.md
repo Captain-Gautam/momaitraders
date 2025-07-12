@@ -1,6 +1,6 @@
-# Momay Traders - Static Digital Business Card Website
+# Momai Traders - Static Digital Business Card Website
 
-A modern, responsive React website for Momay Traders, a plastic packaging materials company based in Ahmedabad, Gujarat. This **static digital business card** showcases the company's products and services with integrated WhatsApp functionality for easy customer inquiries.
+A modern, responsive React website for Momai Traders, a plastic packaging materials company based in Ahmedabad, Gujarat. This **static digital business card** showcases the company's products and services with integrated WhatsApp functionality for easy customer inquiries.
 
 ## Features
 
@@ -50,7 +50,7 @@ src/
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd momay-traders
+cd momai-traders
 ```
 
 2. Install dependencies:
@@ -75,12 +75,12 @@ This builds the app for production to the `dist` folder.
 
 ## Business Information
 
-- **Company**: Momay Traders
+- **Company**: Momai Traders
 - **Industry**: Plastic Packaging Materials
 - **Location**: Ahmedabad, Gujarat, India
 - **Proprietor**: Devendra Acharya
 - **Established**: 22/02/2021
-- **GST No**: 24AHBPA4958P1Z4
+- **GST No**: 24BRYPP7182G1Z1
 
 ## Products & Services
 
@@ -99,8 +99,8 @@ This builds the app for production to the `dist` folder.
 ## Contact Information
 
 - **Phone**: +91 99749 02733, +91 87884 77773
-- **Email**: momaytraders@gmail.com
-- **Address**: 0 Block/202, Shantipujya Homes, Nr. Silver Star Cross Road, Chandlodiya, Ahmedabad-382481
+- **Email**: momaitraders@gmail.com
+- **Address**: Shop-10, Simandhar Complex, Near Prabhat Chowk, Ghatlodiya, Ahmedabad, 380061
 
 ## Key Features Implementation
 
@@ -140,7 +140,7 @@ The website can be deployed to any static hosting service:
 
 ## License
 
-This project is proprietary software for Momay Traders.
+This project is proprietary software for Momai Traders.
 
 ## Support
 

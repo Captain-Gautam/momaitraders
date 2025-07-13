@@ -37,20 +37,15 @@ const Contact = () => {
                 <div className="flex items-center space-x-3 sm:space-x-4">
                   <FaPhone className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 flex-shrink-0 transform scale-x-[-1]" />
                   <div>
-                    <p className="font-medium text-gray-900 text-sm sm:text-base">Primary Phone</p>
-                    <a href="tel:+919974902733" className="text-blue-600 hover:text-blue-700 text-sm sm:text-base">
-                      +91 99749 02733
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex items-center space-x-3 sm:space-x-4">
-                  <FaPhone className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 flex-shrink-0 transform scale-x-[-1]" />
-                  <div>
-                    <p className="font-medium text-gray-900 text-sm sm:text-base">Secondary Phone</p>
-                    <a href="tel:+918788477773" className="text-blue-600 hover:text-blue-700 text-sm sm:text-base">
-                      +91 87884 77773
-                    </a>
+                    <p className="font-medium text-gray-900 text-sm sm:text-base">Phone</p>
+                    <div className="space-y-1">
+                      <a href="tel:+919974902733" className="block text-blue-600 hover:text-blue-700 text-sm sm:text-base">
+                        +91 99749 02733
+                      </a>
+                      <a href="tel:+918788477773" className="block text-blue-600 hover:text-blue-700 text-sm sm:text-base">
+                        +91 87884 77773
+                      </a>
+                    </div>
                   </div>
                 </div>
 

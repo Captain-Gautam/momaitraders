@@ -50,7 +50,7 @@ END:VCARD`
         {/* Company Logo/Avatar */}
         <div className="mb-4 sm:mb-6 lg:mb-8">
           <div className="w-20 h-20 sm:w-24 sm:h-24 lg:w-32 lg:h-32 mx-auto bg-white rounded-full flex items-center justify-center shadow-lg">
-            <Logo className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 text-blue-600" />
+            <Logo className="w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 text-blue-600" />
           </div>
         </div>
 

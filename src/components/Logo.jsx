@@ -1,13 +1,13 @@
 // Logo component for Momai Traders
 import React from 'react'
-import logoSvg from '../assets/logo.svg'
+import logoPng from '../assets/logo.png'
 
-const Logo = ({ className = "w-8 h-8", showText = false }) => {
+const Logo = ({ className = "w-12 h-12", showText = false }) => {
   return (
     <div className="flex items-center space-x-2">
-      {/* Actual logo from SVG file */}
+      {/* Momai Traders logo from PNG file */}
       <img 
-        src={logoSvg}
+        src={logoPng}
         alt="Momai Traders Logo"
         className={className}
       />

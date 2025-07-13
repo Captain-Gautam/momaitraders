@@ -1,17 +1,19 @@
-# Momai Traders - Static Digital Business Card Website
+# Momai Traders - Digital Business Website
 
-A modern, responsive React website for Momai Traders, a plastic packaging materials company based in Ahmedabad, Gujarat. This **static digital business card** showcases the company's products and services with integrated WhatsApp functionality for easy customer inquiries.
+A modern, responsive React website for Momai Traders, a wholesale supplier of cleaning materials and stationery solutions based in Ahmedabad, Gujarat. This professional digital business website showcases the company's products and services with integrated WhatsApp functionality for easy customer inquiries.
 
 ## Features
 
-- **Static Website**: No backend required - can be hosted anywhere
 - **Responsive Design**: Mobile-first approach that works perfectly on all devices
 - **WhatsApp Integration**: Direct product inquiries through WhatsApp
-- **Contact Card Download**: Downloadable vCard for easy contact saving
-- **Product Gallery**: Interactive image gallery with modal view
+- **Email Integration**: Professional email inquiry system
+- **Contact Information**: Complete contact details with phone, email, and address
+- **Product Showcase**: Interactive product catalog with detailed descriptions
+- **Image Gallery**: Professional product image gallery with modal view
 - **Smooth Navigation**: Smooth scrolling between sections
-- **Simple Feedback Form**: Basic customer rating interface (display only)
+- **Contact Form**: Customer feedback and inquiry form
 - **Modern UI**: Built with Tailwind CSS for a clean, professional look
+- **SEO Optimized**: Proper meta tags for search engines and social media sharing
 
 ## Tech Stack
 
@@ -76,45 +78,46 @@ This builds the app for production to the `dist` folder.
 ## Business Information
 
 - **Company**: Momai Traders
-- **Industry**: Plastic Packaging Materials
-- **Location**: Ahmedabad, Gujarat, India
-- **Proprietor**: Devendra Acharya
-- **Established**: 22/02/2021
-- **GST No**: 24BRYPP7182G1Z1
+- **Industry**: Cleaning Materials & Stationery Solutions
+- **Location**: Ghatlodiya, Ahmedabad, Gujarat, India
+- **Website**: https://momaytraders.vercel.app/
+- **Nature of Business**: Wholesale Supplier
 
 ## Products & Services
 
-- B.O.P.P. Tapes
-- P.P. Box Strapping
-- Pet Box Strapping
-- Stretch Wrap Films and Shrink Films
-- Packaging materials (Plain & Printed)
-- Laminated Pouches & Rolls
-- H.D.P.E. Bags, L.D.P.E. Liners
-- P.P. Bags Plain & Printed
-- Industrial Tapes
-- Paper Bags
-- Cord Strap & Buckle
+- **Office Stationery Material**: Complete range of office supplies and stationery items
+- **Housekeeping Material**: Comprehensive cleaning materials and supplies
+- **Washroom Solutions**: All types of washroom and hygiene solutions
+- **Printing Services**: Professional printing services for business needs
+- **Computer Consumables**: Complete range of computer accessories and consumables
+- **Industrial Packing Material**: Specialized industrial packaging materials
+- **Disposable Material**: High-quality disposable products for various applications
+- **Dustbins**: Wide variety of dustbins and waste management solutions
 
 ## Contact Information
 
-- **Phone**: +91 99749 02733, +91 87884 77773
-- **Email**: momaitraders@gmail.com
-- **Address**: Shop-10, Simandhar Complex, Near Prabhat Chowk, Ghatlodiya, Ahmedabad, 380061
+- **Primary Phone**: +91 99749 02733
+- **Secondary Phone**: +91 87884 77773
+- **Email**: momaitraders73@gmail.com
+- **Website**: https://momaytraders.vercel.app/
+- **Address**: Shop-10, Simandhar Complex, Near Prabhat Chowk, Ghatlodiya, Ahmedabad, 380061, Gujarat, India
 
 ## Key Features Implementation
 
 ### WhatsApp Integration
-Direct product inquiry links that open WhatsApp with pre-filled messages for specific products.
+Direct product inquiry links that open WhatsApp with pre-filled messages for specific products, enabling immediate customer communication.
 
-### Contact Card Download
-Generates and downloads a vCard (.vcf) file with complete contact information.
+### Email Integration
+Professional email inquiry system that pre-fills email templates with product-specific information for formal business communication.
 
-### Responsive Gallery
-Image gallery with lightbox functionality and keyboard navigation support.
+### Responsive Design
+Fully responsive design that adapts to all screen sizes, ensuring optimal user experience on mobile, tablet, and desktop devices.
 
-### Smooth Scrolling Navigation
-Navigation links that smoothly scroll to different sections of the page.
+### SEO & Social Media Optimization
+Comprehensive meta tags for search engines and social media platforms (Facebook, Twitter, WhatsApp) with proper Open Graph implementation.
+
+### Professional Contact System
+Multiple contact methods including phone, WhatsApp, email, and physical address with Google Maps integration.
 
 ## Customization
 
@@ -132,8 +135,9 @@ Update company information, products, and contact details in the respective comp
 
 ## Deployment
 
-The website can be deployed to any static hosting service:
+The website is deployed on Vercel and can be accessed at: **https://momaytraders.vercel.app/**
 
+For deployment to other platforms:
 - **Vercel**: `npm run build && vercel --prod`
 - **Netlify**: `npm run build` and upload the `dist` folder
 - **GitHub Pages**: Use GitHub Actions for automated deployment
@@ -144,4 +148,7 @@ This project is proprietary software for Momai Traders.
 
 ## Support
 
-For technical support or customization requests, please contact the development team.
+For business inquiries, please contact:
+- **Website**: https://momaytraders.vercel.app/
+- **Email**: momaitraders73@gmail.com
+- **Phone**: +91 99749 02733

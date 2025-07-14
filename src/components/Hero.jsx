@@ -14,7 +14,7 @@ TEL:+919974902733
 TEL:+918788477773
 EMAIL:momaitraders73@gmail.com
 ADR:;;Shop-10, Simandhar Complex, Near Prabhat Chowk, Ghatlodiya;Ahmedabad;Gujarat;380061;India
-URL:https://momaitraders.com
+URL:https://momaitraders.vercel.app
 END:VCARD`
 
     const blob = new Blob([vCard], { type: 'text/vcard' })

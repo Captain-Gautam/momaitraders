@@ -80,7 +80,7 @@ This builds the app for production to the `dist` folder.
 - **Company**: Momai Traders
 - **Industry**: Cleaning Materials & Stationery Solutions
 - **Location**: Ghatlodiya, Ahmedabad, Gujarat, India
-- **Website**: https://momaytraders.vercel.app/
+- **Website**: https://momaitraders.vercel.app/
 - **Nature of Business**: Wholesale Supplier
 
 ## Products & Services

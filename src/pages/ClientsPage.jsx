@@ -9,33 +9,33 @@ const ClientsPage = () => {
   const clientLogos = [
     {
       id: 1,
-      name: 'Alpha Superspeciality Hospital',
-      logo: '/images/clients/alpha-superspeciality-hospital.png',
-      category: 'Healthcare'
+      name: 'DHL Express',
+      logo: '/images/clients/dhl-express.png',
+      category: 'Logistics'
     },
     {
       id: 2,
-      name: 'Apaxon',
-      logo: '/images/clients/apaxon.png',
-      category: 'Technology'
-    },
-    {
-      id: 3,
       name: 'Arvind Fashioning Possibilities',
       logo: '/images/clients/arvind-fashioning-possibilities.png',
       category: 'Textile'
     },
     {
+      id: 3,
+      name: 'Narayani Heights',
+      logo: '/images/clients/narayani-heights.png',
+      category: 'Hotel & Resort'
+    },
+    {
       id: 4,
-      name: 'Merengo CIMS Hospital',
-      logo: '/images/clients/merengo-cims-hospital.png',
-      category: 'Healthcare'
+      name: 'Kaka Ni Bhajipav',
+      logo: '/images/clients/kaka-ni-bhajipav.png',
+      category: 'Restaurant'
     },
     {
       id: 5,
-      name: 'DHL Express',
-      logo: '/images/clients/dhl-express.png',
-      category: 'Logistics'
+      name: 'Merengo CIMS Hospital',
+      logo: '/images/clients/merengo-cims-hospital.png',
+      category: 'Healthcare'
     },
     {
       id: 6,
@@ -45,15 +45,33 @@ const ClientsPage = () => {
     },
     {
       id: 7,
-      name: 'Kaka Ni Bhajipav',
-      logo: '/images/clients/kaka-ni-bhajipav.png',
-      category: 'Restaurant'
+      name: 'Apaxon',
+      logo: '/images/clients/apaxon.png',
+      category: 'Technology'
     },
     {
       id: 8,
+      name: 'Alpha Superspeciality Hospital',
+      logo: '/images/clients/alpha-superspeciality-hospital.png',
+      category: 'Healthcare'
+    },
+    {
+      id: 9,
       name: 'The Gharana',
       logo: '/images/clients/the-gharana.png',
       category: 'Restaurant'
+    },
+    {
+      id: 10,
+      name: 'Parth Hospital',
+      logo: '/images/clients/parth-hospital.png',
+      category: 'Healthcare'
+    },
+    {
+      id: 11,
+      name: 'City Center II Building',
+      logo: '/images/clients/city-center-2-building.png',
+      category: 'Commercial'
     }
   ]
 
@@ -72,9 +90,15 @@ const ClientsPage = () => {
               <img 
                 src="/logo.png" 
                 alt="Momai Traders Logo" 
-                className="h-8 w-8 sm:h-10 sm:w-10"
+                className="h-8 w-8 sm:h-10 sm:w-10 cursor-pointer hover:opacity-80 transition-opacity"
+                onClick={handleGoBack}
               />
-              <div className="text-xl sm:text-2xl font-bold text-blue-600">Momai Traders</div>
+              <div 
+                className="text-xl sm:text-2xl font-bold text-blue-600 cursor-pointer hover:text-blue-700 transition-colors"
+                onClick={handleGoBack}
+              >
+                Momai Traders
+              </div>
             </div>
             
             {/* Back Button */}

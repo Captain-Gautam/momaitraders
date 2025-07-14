@@ -6,14 +6,17 @@ This directory contains the logo images for Momai Traders' clients that are disp
 
 The following logo image files need to be added to this directory:
 
-1. `alpha-superspeciality-hospital.png` - Alpha Superspeciality Hospital
-2. `apaxon.png` - Apaxon
-3. `arvind-fashioning-possibilities.png` - Arvind Fashioning Possibilities
-4. `merengo-cims-hospital.png` - Merengo CIMS Hospital
-5. `dhl-express.png` - DHL Express
+1. `dhl-express.png` - DHL Express
+2. `arvind-fashioning-possibilities.png` - Arvind Fashioning Possibilities
+3. `narayani-heights.png` - Narayani Heights
+4. `kaka-ni-bhajipav.png` - Kaka Ni Bhajipav
+5. `merengo-cims-hospital.png` - Merengo CIMS Hospital
 6. `empire-hospital.png` - Empire Hospital
-7. `kaka-ni-bhajipav.png` - Kaka Ni Bhajipav
-8. `the-gharana.png` - The Gharana
+7. `apaxon.png` - Apaxon
+8. `alpha-superspeciality-hospital.png` - Alpha Superspeciality Hospital
+9. `the-gharana.png` - The Gharana
+10. `parth-hospital.png` - Parth Hospital
+11. `city-center-2-building.png` - City Center II Building
 
 ## Image Specifications
 
@@ -36,8 +39,10 @@ If logo files are not available, the page will display a placeholder building ic
 ## Categories
 
 The clients are organized into the following categories:
-- Healthcare (Alpha Superspeciality Hospital, Merengo CIMS Hospital, Empire Hospital)
-- Technology (Apaxon)
-- Textile (Arvind Fashioning Possibilities)
 - Logistics (DHL Express)
+- Textile (Arvind Fashioning Possibilities)
+- Hotel & Resort (Narayani Heights)
 - Restaurant (Kaka Ni Bhajipav, The Gharana)
+- Healthcare (Merengo CIMS Hospital, Empire Hospital, Alpha Superspeciality Hospital, Parth Hospital)
+- Technology (Apaxon)
+- Commercial (City Center II Building)

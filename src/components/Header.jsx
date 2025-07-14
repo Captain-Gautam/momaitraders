@@ -22,9 +22,12 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8">
         <div className="flex justify-between items-center py-3 sm:py-4">
           {/* Logo */}
-          <div className="flex items-center min-w-0">
-            <Logo className="w-10 h-10 sm:w-12 sm:h-12 text-blue-600 mr-2 sm:mr-3 flex-shrink-0" />
-            <div className="text-lg sm:text-xl lg:text-2xl font-bold text-blue-600 truncate">
+          <div 
+            className="flex items-center min-w-0 cursor-pointer group"
+            onClick={() => scrollToSection('home')}
+          >
+            <Logo className="w-10 h-10 sm:w-12 sm:h-12 text-blue-600 mr-2 sm:mr-3 flex-shrink-0 group-hover:opacity-80 transition-opacity" />
+            <div className="text-lg sm:text-xl lg:text-2xl font-bold text-blue-600 truncate group-hover:text-blue-700 transition-colors">
               Momai Traders
             </div>
           </div>

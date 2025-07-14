@@ -99,7 +99,7 @@ This builds the app for production to the `dist` folder.
 - **Primary Phone**: +91 99749 02733
 - **Secondary Phone**: +91 87884 77773
 - **Email**: momaitraders73@gmail.com
-- **Website**: https://momaytraders.vercel.app/
+- **Website**: https://momaitraders.vercel.app/
 - **Address**: Shop-10, Simandhar Complex, Near Prabhat Chowk, Ghatlodiya, Ahmedabad, 380061, Gujarat, India
 
 ## Key Features Implementation
@@ -135,7 +135,7 @@ Update company information, products, and contact details in the respective comp
 
 ## Deployment
 
-The website is deployed on Vercel and can be accessed at: **https://momaytraders.vercel.app/**
+The website is deployed on Vercel and can be accessed at: **https://momaitraders.vercel.app/**
 
 For deployment to other platforms:
 - **Vercel**: `npm run build && vercel --prod`
@@ -149,6 +149,6 @@ This project is proprietary software for Momai Traders.
 ## Support
 
 For business inquiries, please contact:
-- **Website**: https://momaytraders.vercel.app/
+- **Website**: https://momaitraders.vercel.app/
 - **Email**: momaitraders73@gmail.com
 - **Phone**: +91 99749 02733
